@@ -1,6 +1,7 @@
 # AsymmetricGridView
 
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-AsymmetricGridView-brightgreen.svg?style=flat)](https://android-arsenal.com/details/1/1186)
+[![Build Status](https://travis-ci.org/felipecsl/AsymmetricGridView.svg?branch=master)](https://travis-ci.org/felipecsl/AsymmetricGridView)
 
 An Android custom ListView that implements multiple columns and variable sized elements.
 
@@ -28,7 +29,6 @@ your own adapter to the AsymmetricGridViewAdapter constructor instead of extendi
 In your ``build.gradle`` file:
 
 ```groovy
-
 dependencies {
     compile 'com.felipecsl.asymmetricgridview:library:2.0.1'
 }
@@ -77,6 +77,8 @@ listView.setAllowReordering(true);
 
 listView.isAllowReordering(); // true
 ```
+
+Snapshots of the development version are available in [Sonatype's `snapshots` repository](https://oss.sonatype.org/content/repositories/snapshots/).
 
 Works with Android 2.3.x and above.
 
