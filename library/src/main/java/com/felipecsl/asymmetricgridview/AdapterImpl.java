@@ -148,8 +148,8 @@ final class AdapterImpl implements View.OnClickListener, View.OnLongClickListene
         agvAdapter.onBindAsymmetricViewHolder(viewHolder, actualIndex);
         View view = viewHolder.itemView;
         view.setTag(currentItem);
-        view.setOnClickListener(this);
-        view.setOnLongClickListener(this);
+//        view.setOnClickListener(this);
+//        view.setOnLongClickListener(this);
 
         spaceLeftInColumn -= currentItem.getItem().getRowSpan();
         currentIndex = 0;
